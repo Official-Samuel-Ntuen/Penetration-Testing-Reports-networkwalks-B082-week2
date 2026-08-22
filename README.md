@@ -4,7 +4,6 @@
 ─────────────────────────────────────────────────────────────────────────────────
 
 ![Skill](https://img.shields.io/badge/Skill-Cybersecurity-red)
-![Ver](https://img.shields.io/badge/VirtualBox-v7.2.8-blue)
 ![Kali](https://img.shields.io/badge/Kali_Linux-v2026.1-purple)
 ![Skill](https://img.shields.io/badge/Skill-Linux-red)
 ![Network](https://img.shields.io/badge/Network-192.168.0.0/24-black)
