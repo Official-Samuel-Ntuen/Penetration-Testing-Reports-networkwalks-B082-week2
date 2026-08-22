@@ -10,10 +10,9 @@
 ![Skill](https://img.shields.io/badge/Penetration_Testing-Skill-red)
 ![Skill](https://img.shields.io/badge/Skill-Virtualization-red)
 ![GitHub](https://img.shields.io/badge/GitHub-Official--Samuel--Ntuen-black?logo=github)
-![Kali](https://img.shields.io/badge/Kali_Linux-v2026.1-purple)
 ![NetworkWalks](https://img.shields.io/badge/NetworkWalks-orange)
 ![Ethical](https://img.shields.io/badge/Ethical_Hacking-darkgreen)
-![Waqas](https://img.shields.io/badge/-Samuel_Ntuen-red)
+![Waqas](https://img.shields.io/badge/-Samuel_M._Ntuen-red)
 ---
 | Field | Details |
 |---|---|
