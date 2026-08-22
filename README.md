@@ -20,10 +20,7 @@
 | Pentester | Samuel Ntuen |
 | Program / Batch | B082-Networkwalks |
 | Date | 23 August 2026 |
-| Modules Completed | • W2-PM1 (Multiple Kali Reconnaissance Tools)<br> • W2-PM2 (Google Hacking Database - GHDB)
-• W2-PM3 (Maltego Visual OSINT)|
-• W2-PM4 (theHarvester Passive Asset Discovery)
-• W2-PM5 (Zenmap & Nmap Subnet Scanning)|
+| Modules Completed | • W2-PM1 (Multiple Kali Reconnaissance Tools)<br> • W2-PM2 (Google Hacking Database - GHDB)<br> • W2-PM3 (Maltego Visual OSINT)<br> • W2-PM4 (theHarvester Passive Asset Discovery)<br> • W2-PM5 (Zenmap & Nmap Subnet Scanning)|
 | Client / Target | networkwalks.com |
 | Permission | Authorized internship activity |
 | Phases Covered | Phase 1 & Phase 2 |
