@@ -14,10 +14,17 @@
 ![Ethical](https://img.shields.io/badge/Ethical_Hacking-darkgreen)
 ![Waqas](https://img.shields.io/badge/-Samuel_M._Ntuen-red)
 ---
+
 | Field | Details |
 |---|---|
-| Pentester | Samuel M. Ntuen|
+| Pentester | Samuel Ntuen |
 | Program / Batch | B082-Networkwalks |
-| Date | 21 August 2026 |
-| Modules Completed | W2-PM1, W2-PM3, W2-PM4, W2-PM5 |
-| Client / Target | networkwalk
+| Date | 23 August 2026 |
+| Modules Completed | • W2-PM1 (Multiple Kali Reconnaissance Tools)
+• W2-PM2 (Google Hacking Database - GHDB)
+• W2-PM3 (Maltego Visual OSINT)
+• W2-PM4 (theHarvester Passive Asset Discovery)
+• W2-PM5 (Zenmap & Nmap Subnet Scanning)|
+| Client / Target | networkwalks.com |
+| Permission | Authorized internship activity |
+| Phases Covered | Phase 1 & Phase 2 |
