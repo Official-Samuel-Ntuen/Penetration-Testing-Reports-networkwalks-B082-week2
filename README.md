@@ -26,4 +26,4 @@
 | Phases Covered | • Phase 1: Reconnaissance & Footprinting<br> • Phase 2: Scanning & Network Discovery<br> • Phase 3–5: In Progress |
 
 ---
-ed
+## 📌 Liability Disclaimer
