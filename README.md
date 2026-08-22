@@ -1,11 +1,21 @@
 # PENETRATION TESTING REPORT
 
 ## FOOTPRINTING & NETWORK SCANNING PHASES
-
-### CYBERSECURITY | NETWORKWALKS
-
-────────────────────────────
-
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+---
+![Skill](https://img.shields.io/badge/Skill-Cybersecurity-red)
+![Ver](https://img.shields.io/badge/VirtualBox-v7.2.8-blue)
+![Kali](https://img.shields.io/badge/Kali_Linux-v2026.1-purple)
+![Skill](https://img.shields.io/badge/Skill-Linux-red)
+![Network](https://img.shields.io/badge/Network-192.168.0.0/24-black)
+![Skill](https://img.shields.io/badge/Penetration_Testing-Skill-red)
+![Skill](https://img.shields.io/badge/Skill-Virtualization-red)
+![GitHub](https://img.shields.io/badge/GitHub-Official--Samuel--Ntuen-black?logo=github)
+![Kali](https://img.shields.io/badge/Kali_Linux-v2026.1-purple)
+![NetworkWalks](https://img.shields.io/badge/NetworkWalks-orange)
+![Ethical](https://img.shields.io/badge/Ethical_Hacking-darkgreen)
+![Waqas](https://img.shields.io/badge/-Samuel_Ntuen-red)
+---
 | Field | Details |
 |---|---|
 | Pentester | Samuel M. Ntuen|
