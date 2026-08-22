@@ -1,7 +1,7 @@
 # PENETRATION TESTING REPORT
 
 ## FOOTPRINTING & NETWORK SCANNING PHASES
-───────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
 
 ![Skill](https://img.shields.io/badge/Skill-Cybersecurity-red)
 ![Ver](https://img.shields.io/badge/VirtualBox-v7.2.8-blue)
