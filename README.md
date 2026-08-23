@@ -45,12 +45,19 @@ All commands were running in Kali Linux 2026.1. Every step below includes the ex
 
 | Tool | Purpose |
 |---|---|
-| WHOIS | Domain registration and ownership information gathering|
-| WhatWeb | ... |
-| Nslookup | ... |
-| Curl | ... |
-| Wafw00f | ... |
-| DNSRecon | ... |
-| Maltego | ... |
-| theHarvester | ... |
-| Zenmap | ... |
+| WHOIS | Domain registration and ownership information gathering. |
+| WhatWeb | Web technology and server fingerprinting (CMS, plugins, IP). |
+| Nslookup | DNS resolution and IP address discovery. |
+| Curl | HTTP header and server information gathering. |
+| Wafw00f | Web Application Firewall detection. |
+| DNSRecon | Enumerate all DNS records (NS, MX, SPF, TXT, SRV). |
+| Google Hacking (GHDB) | Find exposed cameras and downloadable academic PDF documents using search dorks. |
+| Maltego | Visual OSINT and relationship mapping. |
+| theHarvester | Passive Reconnaissance and OSINT collection |
+| Zenmap | Network discovery and port scanning. |
+| Kali Linux | Operating systems used for reconnaissance and scanning activities. |
+| IP Route | Local IP address, interface, route and gateway identification. |
+
+---
+
+
