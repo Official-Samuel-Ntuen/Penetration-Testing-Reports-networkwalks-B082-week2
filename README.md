@@ -80,5 +80,38 @@ I performed reconnaissance against the `networkwalks.com` domain using six Kali 
 These responses were observed during WAF fingerprinting and do not by themselves indicate vulnerabilities.
 - **DNSRecon**: Enumerated DNS records including NS, SOA, MX (`mail.networkwalks.com`), SPF records, cPanel autodiscover SRV records, and exposed BIND version `9.16.23-RH`.
 
+---
 
+### b. Search Engine Footprinting & GHDB (W2-PM2)
 
+I used Google search operators (`intitle:`, `inurl:`, `site:`, `filetype:`) to locate publicly accessible camera feeds and downloadable academic mathematics resources *(IP endpoints partially sanitized)*:
+
+#### 10x Live Vulnerable / Exposed Security Cameras (Sanitized Endpoints)
+| No. | Target Link (Sanitized) | Relevant Dork | Access Status |
+| :-: | :--- | :--- | :--- |
+| 1 | `http://122.116.41.xxx:8080/` | `intitle:"webcamXP" inurl:8080` | Open webcamXP live stream |
+| 2 | `https://www.lmc.edu/webcam.htm` | `intitle:"Webcam" inurl:WebCam.htm` | Public campus webcam |
+| 3 | `http://198.41.49.xxx:81/main.htm` | `intitle:"Device(IP CAMERA)" "language" -com\|net` | Direct IP camera stream |
+| 4 | `http://86.122.80.xxx/Pages/login.htm` | `intitle:"NoVus IP camera" -com` | NoVus camera login interface |
+| 5 | `https://www.skylinewebcams.com/en/webcam/...` | `inurl:webcam site:skylinewebcams.com inurl:roma` | Public live broadcast feed |
+| 6 | `https://www.skylinewebcams.com/en/webcam/...` | `inurl:webcam site:skylinewebcams.com inurl:roma` | Public live broadcast feed |
+| 7 | `http://109.233.191.xxx:8080/multi.html` | `intitle:"webcamXP" inurl:8080` | Multi-channel webcamXP stream |
+| 8 | `http://72.199.200.xxx:8080/` | `intitle:"Index of" "DCIM/camera"` | Open directory with camera files |
+| 9 | `http://139.64.168.xxx:8080/` | `intitle:"Index of" "DCIM/camera"` | Open directory camera media storage |
+| 10 | `http://75.149.26.xxx:1024/` | `intitle:"webcamXP" inurl:8080` | webcamXP stream on port 1024 |
+
+#### 10x Downloadable Mathematics Ebooks / Lecture Notes
+| No. | Link | Relevant Dork | Institution / Topic |
+| :-: | :--- | :--- | :--- |
+| 1 | `https://www.skylineuniversity.ac.ae/pdf/math/` | `intitle:index.of "parent directory" mathematics pdf` | Skyline University (Math Directory) |
+| 2 | `https://www.math.k-state.edu/~gerald/math220d/lec1.pdf` | `site:.edu filetype:pdf "calculus" "lecture notes"` | Kansas State University (Calculus) |
+| 3 | `https://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/knauf1.pdf` | `site:.ac.uk ext:pdf "number theory" "introduction"` | University of Exeter (Number Theory) |
+| 4 | `https://math.nd.edu/assets/150763/60610_basic_discrete_mathematics.pdf` | `site:math.*.edu filetype:pdf "discrete mathematics"` | Notre Dame (Discrete Mathematics) |
+| 5 | `https://www.maths.usyd.edu.au/u/UG/HM/coordinator/applied2025.pdf` | `site:.edu.au ext:pdf "applied mathematics"` | University of Sydney (Applied Math) |
+| 6 | `https://cas.minesparis.psl.eu/~rouchon/publications/PR1993/INDEXLIN.pdf` | `intitle:"index of" "linear algebra" pdf` | Mines Paris (Linear Algebra) |
+| 7 | `https://people.tamu.edu/~e-straube/Math618/syllabusFall2024.pdf` | `inurl:syllabus filetype:pdf "complex variables"` | Texas A&M (Complex Variables) |
+| 8 | `https://ramanujan.math.trinity.edu/wtrench/texts/TRENCH_REAL_ANALYSIS.PDF` | `ext:pdf inurl:course "real analysis"` | Trinity University (Real Analysis) |
+| 9 | `https://math.njit.edu/sites/math/files/Math_279-001-003-F20.pdf` | `inurl:downloads filetype:pdf "statistics and probability"` | NJIT (Statistics & Probability) |
+| 10 | `https://mrcet.com/downloads/digital_notes/ME/II%20year/MATERIAL%20SCIENCE.pdf` | `inurl:materials filetype:pdf "geometry"` | MRCET Digital Notes |
+
+---
