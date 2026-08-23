@@ -145,4 +145,24 @@ For the internal scanning activity, I performed host discovery and port enumerat
   * `192.168.x.xxx` (Kali Linux Workstation): Host is up, but all 100 scanned TCP ports were **filtered** with no response.
 
 ---
+## 📌  Risk Analysis / Impact
+
+Based on the information collected during the footprinting and network scanning activities, I identified the following potential risks:
+
+| # | Risk / Finding | Evidence / Observation | Potential Impact | Risk Level |
+| :-: | :--- | :--- | :--- | :-: |
+| 1 | **Web technology information exposed** | WhatWeb identified WordPress 7.0.4 and WP Download Manager 3.3.58 | Attackers may use exposed version details to identify known software vulnerabilities. | 🟡 **Medium** |
+| 2 | **DNS infrastructure information exposed** | DNSRecon identified DNS, MX, SPF records and BIND version `9.16.23-RH` | Disclosing daemon versions assists in building targeted infrastructure profiles. | 🟡 **Medium** |
+| 3 | **Multiple live hosts visible on local network** | Zenmap identified 3 live hosts and open SMB/NetBIOS ports on `192.168.64.10` | Exposed SMB (445) and NetBIOS (139) on local networks can permit lateral movement or credential attacks. | 🟡 **Medium** |
+| 4 | **Server IP address identifiable** | Nslookup resolved domain to `192.232.216.135` | Provides the direct network location of the web service. | 🟢 **Low** |
+| 5 | **HTTP technical information exposed** | Curl returned response headers and exposed `/wp-json/` | Assists in technology fingerprinting and REST API route enumeration. | 🟢 **Low** |
+| 6 | **WAF technology identifiable** | Wafw00f identified ModSecurity (SpiderLabs) | Reveals perimeter security architecture to an attacker. | 🟢 **Low** |
+
+**Risk Level Key**: 🔴 Critical | 🟡 Medium | 🟢 Low
+
+The risks above are observations from the footprinting and scanning exercises, not confirmed vulnerabilities. The practical exercises primarily involved information gathering and host discovery. No exploitation or vulnerability validation was performed as part of these modules.
+
+Therefore, the presence of information such as a software version, IP address, or DNS record does not by itself mean that the system is vulnerable. Further authorized security testing would be required to confirm any actual vulnerability.
+
+---
 
