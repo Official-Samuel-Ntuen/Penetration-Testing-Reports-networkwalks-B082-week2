@@ -8,7 +8,7 @@
 ![Skill](https://img.shields.io/badge/Skill-Linux-red)
 ![Network](https://img.shields.io/badge/Network-192.168.x.x/24-black)
 ![Skill](https://img.shields.io/badge/Penetration_Testing-Skill-red)
-![Skill](https://img.shields.io/badge/Skill-Virtualization-red)
+![Skill](https://img.shields.io/badge/Skill-Footprinting & Network Scanning-red)
 ![GitHub](https://img.shields.io/badge/GitHub-Official--Samuel--Ntuen-black?logo=github)
 ![NetworkWalks](https://img.shields.io/badge/NetworkWalks-orange)
 ![Ethical](https://img.shields.io/badge/Ethical_Hacking-darkgreen)
@@ -56,7 +56,7 @@ All commands were running in Kali Linux 2026.1. Every step below includes the ex
 | theHarvester | Passive Reconnaissance and OSINT collection |
 | Zenmap | Network discovery and port scanning. |
 | Kali Linux | Operating systems used for reconnaissance and scanning activities. |
-| Kali Linux CMD (`IP Route`)** | Local IP address, interface, route and gateway identification. |
+| Kali Linux CMD (`IP Route`) | Local IP address, interface, route and gateway identification. |
 
 ---
 
