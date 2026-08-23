@@ -56,7 +56,7 @@ All commands were running in Kali Linux 2026.1. Every step below includes the ex
 | theHarvester | Passive Reconnaissance and OSINT collection |
 | Zenmap | Network discovery and port scanning. |
 | Kali Linux | Operating systems used for reconnaissance and scanning activities. |
-| Kali Linux CMD **(IP Route) | Local IP address, interface, route and gateway identification. |
+| Kali Linux CMD (`IP Route`)** | Local IP address, interface, route and gateway identification. |
 
 ---
 
