@@ -124,12 +124,25 @@ Using Maltego Graph 4.12.1, I performed visual entity mapping and relationship a
 
 ### d. theHarvester Footprinting (W2-PM4)
 Using theHarvester 4.10.1, I conducted passive subdomain and email discovery.
-Ran theHarvester -d networkwalks.com -l 1000 -b all.
+Ran `theHarvester -d networkwalks.com -l 1000 -b all`.
 Discovering:
 - 3 ASNs identified (AS13335 / Cloudflare, AS31898, AS46606)
 - 2 public IPs: 172.67.xxx.xxx, 192.232.xxx.xxx (masked — Cloudflare / hosting provider range, full addresses in report)
 - 1 public contact email: info@networkwalks.com
 - 23 subdomain/host records (cpanel, webmail, autodiscover, mail, ftp, etc.)
+
+---
+
+### e. Network Scanning with Zenmap (W2-PM5)
+For the internal scanning activity, I performed host discovery and port enumeration on my local LAN (`192.168.x.x/24`).
+
+* Ran `ip route` on Kali Linux to identify my local IP address `192.168.x.xxx/24`, subnet mask `/24` (`255.255.xxx.0`), and default gateway `192.168.0.1` through the `wlan0` interface.
+* Executed `nmap -T4 -F 192.168.0.xxx/24` in Zenmap.
+* Discovered 3 active hosts on the network:
+
+  * `192.168.0.1` (Gateway/Router): Ports **53/tcp (DNS)** and **80/tcp (HTTP)** open (MAC address sanitized).
+  * `192.168.x.xxx`: **77/tcp filtered**; service was not identified (MAC address sanitized).
+  * `192.168.x.xxx` (Kali Linux Workstation): Host is up, but all 100 scanned TCP ports were **filtered** with no response.
 
 ---
 
