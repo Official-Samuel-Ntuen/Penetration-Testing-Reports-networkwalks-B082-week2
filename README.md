@@ -1,6 +1,6 @@
 # <h1 align="center">PENETRATION TESTING REPORT</h1>
 
-## FOOTPRINTING & NETWORK SCANNING PHASES
+## <h1 align="center">FOOTPRINTING & NETWORK SCANNING PHASES</h1>
 ─────────────────────────────────────────────────────────────────────────────────
 
 ![Skill](https://img.shields.io/badge/Skill-Cybersecurity-red)
