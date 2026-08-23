@@ -199,3 +199,11 @@ The Zenmap exercise provided practical experience in identifying live hosts and 
 Overall, the exercises demonstrated that reconnaissance and network scanning are important stages of a penetration testing methodology because they help security professionals understand the target environment before performing deeper security assessments.
 
 ---
+
+## 📌 Evidences Collected
+
+### a. Footprinting & Reconnaissance Evidence (W2-PM1)
+
+#### WHOIS Query Output (`whois networkwalks.com`)
+*Shows domain registration, GoDaddy registrar, and HostGator nameservers.*
+![WHOIS Query Result](pm1/task1_whois.png)
