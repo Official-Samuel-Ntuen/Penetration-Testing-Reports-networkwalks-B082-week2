@@ -31,3 +31,26 @@ I have performed these activities only on systems and devices where I had secure
 
 ---
 
+## 📌 Introduction
+
+This report covers footprinting the networkwalks.com domain using six Kali Linux tools (W2-PM1), performing Google Dorking with GHDB (W2-PM2), visual OSINT mapping with Maltego (W2-PM3), passive harvesting with theHarvester (W2-PM4), and scanning my own local network with Zenmap (W2-PM5).
+
+Together, these modules show how an attacker moves from gathering public information to mapping live hosts on a network. This is the Week 2 part of my ongoing cybersecurity internship program at NetworkWalks Academy under the mentorship of Waqas Karim CCIE.
+
+All commands were running in Kali Linux 2026.1. Every step below includes the exact command used, the result I observed, a screenshot as evidence, and a short note on why the finding matters from an attacker's point of view.
+
+---
+
+## 📌 Tools Used
+
+| Tool | Purpose |
+|---|---|
+| WHOIS | Domain registration and ownership information gathering|
+| WhatWeb | ... |
+| Nslookup | ... |
+| Curl | ... |
+| Wafw00f | ... |
+| DNSRecon | ... |
+| Maltego | ... |
+| theHarvester | ... |
+| Zenmap | ... |
