@@ -270,10 +270,15 @@ Overall, the exercises demonstrated that reconnaissance and network scanning are
 
 
 👤 **Author**
+
 **Samuel Ntuen**
+
 Cybersecurity Intern — Batch: **B082-NetworkWalks**
+
 LinkedIn: *(add your LinkedIn link here)*
+
 Repository: [Penetration-Testing-Reports-networkwalks-B082-week2](https://github.com/Official-Samuel-Ntuen/Penetration-Testing-Reports-networkwalks-B082-week2)
 
 📌 **Project Information**
+
 **Program Name**: Cybersecurity Internship at NetworkWalks Academy | **Week**: 02 | **Repository**: GitHub
