@@ -206,4 +206,4 @@ Overall, the exercises demonstrated that reconnaissance and network scanning are
 
 #### WHOIS Query Output (`whois networkwalks.com`)
 *Shows domain registration, GoDaddy registrar, and HostGator nameservers.*
-![WHOIS Query Result](pm1/task1_whois.png)
+![WHOIS Query Result](/pm1/task1_whois.png)
