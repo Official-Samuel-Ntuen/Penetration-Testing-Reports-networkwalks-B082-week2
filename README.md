@@ -218,7 +218,7 @@ Overall, the exercises demonstrated that reconnaissance and network scanning are
 
 #### Curl -I Response Headers (`curl -I https://networkwalks.com`)
 *Shows HTTP headers, Apache server, WordPress cache, and REST API link (session token sanitized).*
-![Curl -I Result](pm1/task4_curl-I.png)
+![Curl -I Result](pm1/task4_curl -I.png)
 
 #### Wafw00f WAF Detection (`wafw00f networkwalks.com`)
 *Confirms ModSecurity (SpiderLabs) Web Application Firewall.*
