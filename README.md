@@ -123,3 +123,13 @@ Using Maltego Graph 4.12.1, I performed visual entity mapping and relationship a
 ---
 
 ### d. theHarvester Footprinting (W2-PM4)
+Using theHarvester 4.10.1, I conducted passive subdomain and email discovery.
+Ran theHarvester -d networkwalks.com -l 1000 -b all.
+Discovering:
+- 3 ASNs identified (AS13335 / Cloudflare, AS31898, AS46606)
+- 2 public IPs: 172.67.xxx.xxx, 192.232.xxx.xxx (masked — Cloudflare / hosting provider range, full addresses in report)
+- 1 public contact email: info@networkwalks.com
+- 23 subdomain/host records (cpanel, webmail, autodiscover, mail, ftp, etc.)
+
+---
+
