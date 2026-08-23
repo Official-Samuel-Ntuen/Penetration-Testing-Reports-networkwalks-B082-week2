@@ -1,5 +1,4 @@
-|:---|---:|
-# PENETRATION TESTING REPORT
+# <h1 align="center">PENETRATION TESTING REPORT</h1>
 
 ## FOOTPRINTING & NETWORK SCANNING PHASES
 ─────────────────────────────────────────────────────────────────────────────────
