@@ -3,7 +3,7 @@
 ## <h1 align="center">FOOTPRINTING & NETWORK SCANNING PHASES</h1>
 ─────────────────────────────────────────────────────────────────────────────────
 
-![Skill](https://img.shields.io/badge/Skill-Cybersecurity-red)
+<h1 align="center">![Skill](https://img.shields.io/badge/Skill-Cybersecurity-red)
 ![Kali](https://img.shields.io/badge/Kali_Linux-v2026.1-purple)
 ![Skill](https://img.shields.io/badge/Skill-Linux-red)
 ![Network](https://img.shields.io/badge/Network-192.168.x.x/24-black)
@@ -12,7 +12,7 @@
 ![GitHub](https://img.shields.io/badge/GitHub-Official--Samuel--Ntuen-black?logo=github)
 ![NetworkWalks](https://img.shields.io/badge/NetworkWalks-orange)
 ![Ethical](https://img.shields.io/badge/Ethical_Hacking-darkgreen)
-![Waqas](https://img.shields.io/badge/-Samuel_M._Ntuen-red)
+![Waqas](https://img.shields.io/badge/-Samuel_M._Ntuen-red)</h1>
 ---
 
 | Field | Details |
