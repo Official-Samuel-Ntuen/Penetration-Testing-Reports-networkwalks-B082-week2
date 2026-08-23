@@ -151,12 +151,13 @@ Based on the information collected during the footprinting and network scanning 
 
 | # | Risk / Finding | Evidence / Observation | Potential Impact | Risk Level |
 | :-: | :--- | :--- | :--- | :-: |
-| 1 | **Web technology information exposed** | WhatWeb identified WordPress 7.0.4 and WP Download Manager 3.3.58 | Attackers may use exposed version details to identify known software vulnerabilities. | 🟡 **Medium** |
-| 2 | **DNS infrastructure information exposed** | DNSRecon identified DNS, MX, SPF records and BIND version `9.16.23-RH` | Disclosing daemon versions assists in building targeted infrastructure profiles. | 🟡 **Medium** |
-| 3 | **Multiple live hosts visible on local network** | Zenmap identified 3 live hosts and open SMB/NetBIOS ports on `192.168.64.10` | Exposed SMB (445) and NetBIOS (139) on local networks can permit lateral movement or credential attacks. | 🟡 **Medium** |
+| 1 | **Web technology information disclosed** | WhatWeb identified WordPress 7.0.4 and WP Download Manager 3.3.58 | Can assist technology fingerprinting and vulnerability research. | 🟡 **Medium** |
+| 2 | **DNS information exposed** | DNSRecon identified DNS, MX, SPF records and BIND version `9.16.23-RH` | Disclosing daemon versions assists in building targeted infrastructure profiles. | 🟡 **Medium** |
+| 3 | **Multiple live hosts visible on local network** | Zenmap identified 3 live hosts, ports 53/tcp and 80/tcp on `192.168.x.x/24` | Provides visibility of devices on the local network. | 🟡 **Medium** |
 | 4 | **Server IP address identifiable** | Nslookup resolved domain to `192.232.216.135` | Provides the direct network location of the web service. | 🟢 **Low** |
 | 5 | **HTTP technical information exposed** | Curl returned response headers and exposed `/wp-json/` | Assists in technology fingerprinting and REST API route enumeration. | 🟢 **Low** |
 | 6 | **WAF technology identifiable** | Wafw00f identified ModSecurity (SpiderLabs) | Reveals perimeter security architecture to an attacker. | 🟢 **Low** |
+| 7 | **Email address harvested** | WhatWeb + theHarvester — info@networkwalks.com | Can be used for phishing or social engineering attacks. | 🟢 **Low** |
 
 **Risk Level Key**: 🔴 Critical | 🟡 Medium | 🟢 Low
 
@@ -166,3 +167,35 @@ Therefore, the presence of information such as a software version, IP address, o
 
 ---
 
+## 📌 Recommendations
+
+Based on the observations from these activities, I recommend the following security improvements:
+
+1. **Review publicly exposed technology information**: Regularly check what web technologies, CMS versions, and plugins are publicly visible.
+2. **Keep software updated**: Ensure WordPress core, plugins, and web servers are routinely patched.
+3. **Review HTTP headers**: Suppress unnecessary server banners and add security headers (`HSTS`, `CSP`, `X-Frame-Options`).
+4. **Review DNS records regularly**: Periodically audit DNS and suppress BIND version banner leakage.
+5. **Properly configure and monitor the WAF**: Keep ModSecurity enabled and tuned with updated rule sets.
+6. **Perform regular internal network discovery**: Periodically scan internal subnets to identify unauthorized or rogue devices.
+7. **Secure internal SMB and NetBIOS**: Restrict inbound access to ports 135, 139, and 445 on local workstations.
+8. **Disable UPnP on gateway devices**: Turn off UPnP on routers to prevent automated port forwarding.
+9. **Maintain network documentation**: Keep network topology diagrams and IP address assignments updated.
+10. **Perform security testing with authorization**: Always ensure scanning and OSINT testing are conducted within an authorized scope.
+
+---
+
+## 📌 Conclusion
+
+The Week 2 internship activities provided practical experience in reconnaissance, OSINT, web technology fingerprinting, DNS enumeration, WAF detection, and network scanning.
+
+The footprinting phase demonstrated how multiple reconnaissance tools can be combined to build an understanding of a target's infrastructure.
+
+WHOIS provided domain registration information, WhatWeb identified web technologies, Nslookup identified the target IP, Curl exposed HTTP response information, Wafw00f detected ModSecurity, and DNSRecon identified DNS records.
+
+Maltego provided a visual representation of relationships associated with the target, while theHarvester successfully collected ASNs, IP addresses, an email address, URLs, and 21 host entries from the selected sources.
+
+The Zenmap exercise provided practical experience in identifying live hosts and open or filtered ports within a local /24 network.
+
+Overall, the exercises demonstrated that reconnaissance and network scanning are important stages of a penetration testing methodology because they help security professionals understand the target environment before performing deeper security assessments.
+
+---
