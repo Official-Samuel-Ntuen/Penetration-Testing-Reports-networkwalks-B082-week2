@@ -71,7 +71,6 @@ I performed reconnaissance against the `networkwalks.com` domain using six Kali 
 - **Nslookup**: Resolved `networkwalks.com` to its direct host IP `192.232.216.135`.
 - **Curl -I**: Retrieved HTTP/2 200 response headers, exposing Apache server, caching headers (`x-nginx-cache: WordPress`), and the WordPress REST API endpoint `/wp-json/`.
 - **Wafw00f**: Detected that the website is protected by **ModSecurity (SpiderLabs) WAF**. The captured output also showed several HTTP response signatures, including:
-- 
 • 404
 • 405
 • 403
