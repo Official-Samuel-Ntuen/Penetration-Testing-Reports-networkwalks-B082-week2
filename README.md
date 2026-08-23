@@ -222,7 +222,7 @@ Overall, the exercises demonstrated that reconnaissance and network scanning are
 
 #### Wafw00f WAF Detection (`wafw00f networkwalks.com`)
 *Confirms ModSecurity (SpiderLabs) Web Application Firewall.*
-![DNSRecon Result](pm1/task6_dnsrecon.png)
+![Wafw00f Result](pm1/task5_wafw00f.png)
 
 
 #### DNSRecon Enumeration (`dnsrecon -d networkwalks.com`)
