@@ -1,4 +1,4 @@
-# <h1 align="center">PENETRATION TESTING REPORT</h1>
+# <p align="center">PENETRATION TESTING REPORT</p>
 
 ## <h1 align="center">FOOTPRINTING & NETWORK SCANNING PHASES</h1>
 ─────────────────────────────────────────────────────────────────────────────────
