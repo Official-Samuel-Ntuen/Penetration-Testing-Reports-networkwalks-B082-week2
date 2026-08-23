@@ -271,7 +271,7 @@ Overall, the exercises demonstrated that reconnaissance and network scanning are
 
 👤 **Author**
 
-**Samuel Ntuen**
+**Samuel M. Ntuen**
 
 Cybersecurity Intern — Batch: **B082-NetworkWalks**
 
