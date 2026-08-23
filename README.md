@@ -115,3 +115,12 @@ I used Google search operators (`intitle:`, `inurl:`, `site:`, `filetype:`) to l
 | 10 | `https://mrcet.com/downloads/digital_notes/ME/II%20year/MATERIAL%20SCIENCE.pdf` | `inurl:materials filetype:pdf "geometry"` | MRCET Digital Notes |
 
 ---
+
+### c. Maltego Visual OSINT (W2-PM3)
+Using Maltego Graph 4.12.1, I performed visual entity mapping and relationship analysis:
+- Configured Maltego Data Hub transforms.
+- Ran email transforms against `networkwalks.com` to confirm domain contacts (`info@networkwalks.com`).
+
+---
+
+### d theHarvester Footprinting (W2-PM4)
