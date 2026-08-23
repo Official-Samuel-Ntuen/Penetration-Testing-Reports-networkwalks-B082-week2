@@ -60,4 +60,26 @@ All commands were running in Kali Linux 2026.1. Every step below includes the ex
 
 ---
 
+## 📌 Activities Performed
+
+### a. Footprinting & Reconnaissance (W2-PM1)
+
+I performed reconnaissance against the `networkwalks.com` domain using six Kali Linux tools: **WHOIS**, **WhatWeb**, **Nslookup**, **Curl**, **Wafw00f**, and **DNSRecon**.
+
+- **WHOIS**: Queried domain registration details, revealing GoDaddy as registrar, active dates (2019–2027), HostGator nameservers (`ns6135.hostgator.com`, `ns6136.hostgator.com`), and WHOIS privacy protection.
+- **WhatWeb**: Identified WordPress 7.0.4, WP Download Manager 3.3.58, Apache web server, jQuery 3.7.1, Bootstrap 7.0.4, and IP address `192.232.216.135`.
+- **Nslookup**: Resolved `networkwalks.com` to its direct host IP `192.232.216.135`.
+- **Curl -I**: Retrieved HTTP/2 200 response headers, exposing Apache server, caching headers (`x-nginx-cache: WordPress`), and the WordPress REST API endpoint `/wp-json/`.
+- **Wafw00f**: Detected that the website is protected by **ModSecurity (SpiderLabs) WAF**. The captured output also showed several HTTP response signatures, including:
+- 
+• 404
+• 405
+• 403
+• 502
+• 500
+
+These responses were observed during WAF fingerprinting and do not by themselves indicate vulnerabilities.
+- **DNSRecon**: Enumerated DNS records including NS, SOA, MX (`mail.networkwalks.com`), SPF records, cPanel autodiscover SRV records, and exposed BIND version `9.16.23-RH`.
+
+
 
