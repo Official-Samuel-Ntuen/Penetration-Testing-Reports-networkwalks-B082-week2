@@ -1,3 +1,4 @@
+|:---|---:|
 # PENETRATION TESTING REPORT
 
 ## FOOTPRINTING & NETWORK SCANNING PHASES
@@ -123,4 +124,4 @@ Using Maltego Graph 4.12.1, I performed visual entity mapping and relationship a
 
 ---
 
-### d theHarvester Footprinting (W2-PM4)
+### d. theHarvester Footprinting (W2-PM4)
