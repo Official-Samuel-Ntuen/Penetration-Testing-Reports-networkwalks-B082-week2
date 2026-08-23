@@ -207,3 +207,24 @@ Overall, the exercises demonstrated that reconnaissance and network scanning are
 #### WHOIS Query Output (`whois networkwalks.com`)
 *Shows domain registration, GoDaddy registrar, and HostGator nameservers.*
 ![WHOIS Result](pm1/task1_Whois.png)
+
+#### WhatWeb Technology Fingerprint (`whatweb networkwalks.com`)
+*Shows WordPress 7.0.4, WP Download Manager 3.3.58, Apache, and target IP.*
+![WhatWeb Result](pm1/task2_Whatweb.png)
+
+#### Nslookup DNS Resolution (`nslookup networkwalks.com`)
+*Resolves domain directly to IP 192.232.216.135.*
+![Nslookup Result](pm1/task3_nslookup.png)
+
+#### Curl -I Response Headers (`curl -I https://networkwalks.com`)
+*Shows HTTP headers, Apache server, WordPress cache, and REST API link (session token sanitized).*
+![Curl -I Result](pm1/task4_curl-I.png)
+
+#### Wafw00f WAF Detection (`wafw00f networkwalks.com`)
+*Confirms ModSecurity (SpiderLabs) Web Application Firewall.*
+![DNSRecon Result](pm1/task6_dnsrecon.png)
+
+
+#### DNSRecon Enumeration (`dnsrecon -d networkwalks.com`)
+*Shows SOA, NS records, BIND version 9.16.23-RH, MX record, and SPF.*
+![dnsrecon Result](assets/pm1/task5_dnsrecon.png)
