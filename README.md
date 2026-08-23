@@ -228,3 +228,52 @@ Overall, the exercises demonstrated that reconnaissance and network scanning are
 #### DNSRecon Enumeration (`dnsrecon -d networkwalks.com`)
 *Shows SOA, NS records, BIND version 9.16.23-RH, MX record, and SPF.*
 ![DNSRecon Result](pm1/task6_dnsrecon.png)
+
+---
+
+### b. Maltego Visual OSINT Evidence (W2-PM3)
+
+#### Maltego Data Hub & Transform Hub Setup
+*Maltego Graph 4.12.1 setup with OSINT transforms and partner integrations.*
+
+![Maltego Data Hub](pm3/maltego-data_hub.png)
+
+#### Maltego Domain-to-Contact Linkage on `networkwalks.com`
+*Graph mapping associating networkwalks.com domain node with info@networkwalks.com contact.*
+
+![Maltego NetworkWalks Graph](pm3/maltego_networkwalks.png)
+
+---
+
+### c. theHarvester Passive OSINT Evidence (W2-PM4)
+
+#### Subdomain Enumeration via Baidu Search Engine
+*Passive harvest of subdomains without generating direct traffic on the target.*
+
+![theHarvester Baidu Scan](pm4/theharvester_baidu_scan.png)
+
+#### Multi-Source Engine Passive Scan (`-b all`)
+*theHarvester query across all search engines discovering 21 hosts, 2 IPs, 1 email and 3 ASNs.*
+
+![theHarvester All Sources](pm4/theharvester-all-sources.png)
+
+---
+
+### 8.4 Zenmap & Nmap Local Network Scanning Evidence (W2-PM5)
+
+#### Zenmap Subnet Quick Scan (`192.168.x.xxx/24`)
+*Discovered 3 live hosts: Gateway (192.168.x.x), Unknown device (192.168.x.xxx), and Kali machine (192.168.x.xxx). Hardware MACs sanitized.*
+
+![Zenmap Scan Results](pm5/zenmap_scan.png)
+
+---
+
+
+👤 **Author**
+**Samuel Ntuen**
+Cybersecurity Intern — Batch: **B082-NetworkWalks**
+LinkedIn: *(add your LinkedIn link here)*
+Repository: [Penetration-Testing-Reports-networkwalks-B082-week2](https://github.com/Official-Samuel-Ntuen/Penetration-Testing-Reports-networkwalks-B082-week2)
+
+📌 **Project Information**
+**Program Name**: Cybersecurity Internship at NetworkWalks Academy | **Week**: 02 | **Repository**: GitHub
